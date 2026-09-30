@@ -1,0 +1,8 @@
+# Reviewed false alarms. Each line is file:rule:start-line.
+# A new secret on a different line still fails the scan.
+soroban-fireblocks-sdk/tests/unit/fireblocks-signer.test.ts:bare-32-byte-hex:43
+soroban-fireblocks-sdk/tests/unit/config.test.ts:private-key:22
+soroban-fireblocks-sdk/tests/unit/config.test.ts:private-key:126
+soroban-sctoken-fireblocks-sdk/tests/unit/fireblocks-signer.test.ts:bare-32-byte-hex:42
+soroban-sctoken-fireblocks-sdk/tests/unit/config.test.ts:private-key:15
+soroban-sctoken-fireblocks-sdk/tests/unit/config.test.ts:private-key:116
